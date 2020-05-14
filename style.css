@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-width: 300px;
+  max-width: 1300px;
+  color: black;
+  font-family: "cocogoose", "lato", sans-serif;
+  line-height: 1em;
+  margin: 0 auto !important;
+  overflow-x: hidden;
+}
+
+.first-nav {
+  background-color: #272a31;
+  height: em;
+}
+
+.second-nav {
+  background-color: #ffffff;
+  height: 2em;
+}
+
+.Campaign {
+  border: 4px solid #ec5242;
+}
+
+.anchor a {
+  text-decoration: none !important;
+  color: black;
+ 
+}
+
+.anchor a:hover {
+  color:  #ec5242;
+}
+
+.anchor1 a {
+  text-decoration: none !important;
+  color: white;
+ 
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
