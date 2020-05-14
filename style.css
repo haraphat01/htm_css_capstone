@@ -15,7 +15,7 @@ body {
 
 .first-nav {
   background-color: #272a31;
-  height: em;
+  height: 1.5em;
 }
 
 .second-nav {
@@ -30,23 +30,74 @@ body {
 .anchor a {
   text-decoration: none !important;
   color: black;
- 
 }
 
 .anchor a:hover {
-  color:  #ec5242;
+  color: #ec5242;
 }
 
 .anchor1 a {
   text-decoration: none !important;
   color: white;
- 
 }
 
+.first-body {
+  background: rgb(18, 12, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 12, 12, 0) 3%,
+    rgba(113, 108, 133, 1) 39%,
+    rgba(252, 69, 71, 0) 100%
+  );
+}
 
+.first-second {
+  background-color: #272a31;
+}
 
+.text-colour {
+  color: #ec5242;
+}
 
+.white {
+  color: white;
+}
 
+.logo-div {
+  background-color: #272a31;
+  height: 10rem;
+}
+
+.featured-div {
+  background-color: #d3d3d3;
+}
+
+.last-div {
+  background-color: #d3d3d3;
+}
+
+.last-about-div {
+  background-color: #272a31;
+}
+
+.conference-pix {
+  background-image: url(./images/conference.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 12rem;
+  margin-left: 10em;
+  margin-right: 50px;
+}
+
+.conference-pix1 {
+background-image: url(./images/conference.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;
+height: 12rem;
+
+}
 
 @media only screen and (max-width: 767px) {
 }
