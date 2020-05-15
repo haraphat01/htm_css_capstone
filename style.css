@@ -91,12 +91,110 @@ body {
 }
 
 .conference-pix1 {
-background-image: url(./images/conference.jpg);
-background-repeat: no-repeat;
-background-size: 100%;
-background-position: center;
-height: 12rem;
+  background-image: url(./images/conference.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 12rem;
+}
 
+.ab {
+  display: inline-block;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  width: 30px;
+  background-color: #ec5242;
+}
+
+.first-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first {
+  text-align: center;
+  background-color: #ec5242;
+  margin-right: 0.5em;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.second,
+.third,
+.fourth {
+  background-color: #d3d3d3;
+  margin-right: 0.5em;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.first,
+.second,
+.third,
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.second-flex {
+  border-top: 1px solid #272a31;
+  border-bottom: 1px solid #272a31;
+}
+
+.child1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15em;
+  padding-top: 0.5em;
+}
+
+.power {
+  padding: 7px;
+  border-radius: 20px;
+  color: #272a31;
+  background-color: white;
+  border: 1px solid #272a31;
+  margin-left: 1em;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo1 {
+  margin-top: 1.5em;
+  border: 1px solid #272a31;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.fa-accusoft,
+.fa-chalkboard-teacher {
+  color: #ec5242;
+  margin-right: 1em;
+}
+
+.fa-folder,
+.fa-calendar-week {
+  color: #272a31;
+  margin-right: 1em;
+}
+
+.first-grid {
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+}
+
+.item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
 }
 
 @media only screen and (max-width: 767px) {
