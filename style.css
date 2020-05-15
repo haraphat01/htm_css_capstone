@@ -189,14 +189,26 @@ a {
 
 .first-grid {
   grid-template-columns: auto auto auto;
-  background-color: #2196f3;
 }
 
 .item {
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  padding: 10px;
 }
 
+.hubert-div {
+  background-color: #d3d3d3;
+  border-radius: 2px solid;
+  padding: 5px;
+}
+
+.lunch {
+  margin-right: 50%;
+}
+
+.first-ticket {
+  background-color: #d3d3d3;
+}
 @media only screen and (max-width: 767px) {
 }
 
