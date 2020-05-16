@@ -1,4 +1,4 @@
-# news-week
+# capstone project
 
 
 
@@ -6,7 +6,7 @@
 
 > This project consists of building an HTML document that matches the appearance of (Newsweek's Page) 
 
-![screenshot](./images/sc.jpg)
+![screenshot](./images/screenshot.png)
 
 
 
@@ -18,7 +18,7 @@
 
 ## Getting Started
 
-To test the code please clone the repository [here](https://github.com/haraphat01/news-week)
+To test the code please clone the repository [here](https://github.com/haraphat01/capstone)
 
 Run the index file with Google Chrome Browser
 
@@ -30,7 +30,7 @@ HTML5 and CSS3 compatible browser
 
 You can use [raw githack](https://raw.githack.com/) to view this page directly from github.
 
-You can view the site itself [here](https://raw.githack.com/haraphat01/news-week/feature/index.html) .
+You can view the site itself [here](https://raw.githack.com/haraphat01/capstone/feature/index.html) .
 Have fun!
 
 ## Author
@@ -54,7 +54,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+- Cindy Shin in Behance
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
