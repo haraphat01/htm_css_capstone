@@ -21,6 +21,24 @@
 
 <body>
     <header class="container-fluid">
+        <div class="container-fluid mt-2 mb-2 mobile-view">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#myNavbar">
+                    <i class="fas fa-bars fa-2x"></i>
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active mobile p-1"><a href="index.html">Home</a></li>
+                    <li class="mobile p-1"><a href="about.html">About</a></li>
+                    <li class="mobile p-1"><a href="ticket2.html">Ticket</a></li>
+                </ul>
+
+            </div>
+        </div>
+
         <nav class="row first-nav">
             <div class="col-lg-12 d-flex justify-content-lg-end justify-content-md-end">
                 <div>
@@ -35,17 +53,17 @@
         </nav>
         <nav class="row second-nav">
             <div class="col-lg-12 d-flex justify-content-lg-around justify-content-md-around mt-3">
-                <div class="mr-5">
+                <div class="mr-5 anchor logo">
                     <a href="./index.html"> <img src="/images/logo.png" alt="#" /></a>
                 </div>
-                <div class="anchor mr-5"><a href="about.html">About</a></div>
-                <div class="anchor mr-5"><a href="#">Program</a></div>
-                <div class="anchor mr-5"><a href="#">Join</a></div>
+                <div class="anchor about mr-5"><a href="about.html">About</a></div>
+                <div class="anchor program mr-5"><a href="#">Program</a></div>
+                <div class="anchor join mr-5"><a href="#">Join</a></div>
 
-                <div class="anchor mr-5"><a href="#">Sponsor</a></div>
-                <div class="anchor mr-5"><a href="#">News</a></div>
+                <div class="anchor sponsor mr-5"><a href="#">Sponsor</a></div>
+                <div class="anchor news mr-5"><a href="#">News</a></div>
                 <div class="anchor mr-5 Campaign">
-                    <a href="ticket.html">CC&nbsp;Campaign</a>
+                    <a href="ticket2.html">CC&nbsp;Campaign</a>
                 </div>
             </div>
         </nav>
@@ -56,16 +74,16 @@
             <p class="text-center font-weight-bold">Program</p>
             <hr />
             <div class="first-flex">
-                <div class="first"><a href="#">Monday (1st, May)</a></div>
-                <div class="second"><a href="#">Monday (2nd, May)</a></div>
-                <div class="third"><a href="#">Monday (3rd, May)</a></div>
-                <div class="fourth"><a href="#">Monday (4th, May)</a></div>
+                <div class="first small-device"><a href="#">Monday (1st, May)</a></div>
+                <div class="second small-device"><a href="#">Monday (2nd, May)</a></div>
+                <div class="third small-device"><a href="#">Monday (3rd, May)</a></div>
+                <div class="fourth small-device"><a href="#">Monday (4th, May)</a></div>
             </div>
         </div>
 
         <div class="second-flex mt-3">
             <div class="child1">
-                <p class="text-colour text-center">19th, May (Saturday)</p>
+                <p class="text-colour text-center font-weight-bold">19th, May (Saturday)</p>
                 <p class="power">The Power of attending Conference</p>
             </div>
             <div class="text-center">
@@ -88,33 +106,34 @@
 
         <div class="first-grid">
             <div class="item d-flex justify-content-lg-between justify-content-md-between">
-                <P>08:00-9:00</P>
+                <p>08:00-9:00</p>
                 <p class="mr-5">Registration</p>
             </div>
             <div class="item d-flex justify-content-lg-between justify-content-md-between">
-                <P>09:00-10:00</P>
+                <p>09:00-10:00</p>
                 <p class="mr-5">Opening Prayer</p>
                 <p class="mr-5">By Azeem</p>
             </div>
             <div class="item d-flex justify-content-lg-between justify-content-md-between">
-                <P>09:00-10:00</P>
+                <p>09:00-10:00</p>
                 <div class="d-flex justify-content-end hubert-div">
                     <i class="fas fa-book-open mr-5"><span class="font-weight-bold"> Opening Session</span></i>
                     <p class="mr5">Proff. Hubert</p>
                     <p class="ml-5 text-colour">Slack Channel</p>
-                    
-
                 </div>
             </div>
-            <div class="item  d-flex justify-content-lg-between justify-content-md-between">
-                <P>10:00-11:00</P>
-                <P class="text-center lunch">Lunch</P>
+            <div class="item d-flex justify-content-lg-between justify-content-md-between">
+                <p>10:00-11:00</p>
+                <p class="text-center lunch">Lunch</p>
             </div>
             <div class="item d-flex">
-                <P class="mr-1">11:00-12:00</P> 
+                <p class="mr-1">11:00-12:00</p>
                 <div class="first-ticket mr-1">
                     <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
                     <div class="d-flex justify-content-between">
                         <p class="text-colour">Slack Channel</p>
                         <i class="fas fa-check"> <u>What's React?</u></i>
@@ -123,7 +142,10 @@
 
                 <div class="first-ticket mr-1">
                     <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
                     <div class="d-flex justify-content-between">
                         <p class="text-colour">Slack Channel</p>
                         <i class="fas fa-check"> <u>What's React?</u></i>
@@ -132,7 +154,10 @@
 
                 <div class="first-ticket mr-1">
                     <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
                     <div class="d-flex justify-content-between">
                         <p class="text-colour">Slack Channel</p>
                         <i class="fas fa-check"> <u>What's React?</u></i>
@@ -140,14 +165,17 @@
                 </div>
             </div>
             <div class="item d-flex justify-content-lg-between justify-content-md-between">
-                <P>12:00-01:00</P>
-                <P class="text-center lunch">Lunch</P>
+                <p>12:00-01:00</p>
+                <p class="text-center lunch">Lunch</p>
             </div>
             <div class="item d-flex justify-content-lg-between justify-content-md-between">
-                <P class="mr-1">11:00-12:00</P> 
+                <p class="mr-1">11:00-12:00</p>
                 <div class="first-ticket mr-1">
                     <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
                     <div class="d-flex justify-content-between">
                         <p class="text-colour">Slack Channel</p>
                         <i class="fas fa-check"> <u>What's React?</u></i>
@@ -156,7 +184,10 @@
 
                 <div class="first-ticket mr-1">
                     <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
                     <div class="d-flex justify-content-between">
                         <p class="text-colour">Slack Channel</p>
                         <i class="fas fa-check"> <u>What's React?</u></i>
@@ -165,7 +196,10 @@
 
                 <div class="first-ticket mr-1">
                     <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
                     <div class="d-flex justify-content-between">
                         <p class="text-colour">Slack Channel</p>
                         <i class="fas fa-check"> <u>What's React?</u></i>
@@ -173,16 +207,19 @@
                 </div>
             </div>
 
-            <div class="item  d-flex justify-content-lg-between justify-content-md-between">
-                <P>10:00-11:00</P>
-                <P class="text-center lunch">Lunch</P>
-            </div>
-           
             <div class="item d-flex justify-content-lg-between justify-content-md-between">
-                <P class="mr-1">11:00-12:00</P> 
+                <p>10:00-11:00</p>
+                <p class="text-center lunch">Lunch</p>
+            </div>
+
+            <div class="item d-flex justify-content-lg-between justify-content-md-between">
+                <p class="mr-1">11:00-12:00</p>
                 <div class="first-ticket mr-1">
                     <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
                     <div class="d-flex justify-content-between">
                         <p class="text-colour">Slack Channel</p>
                         <i class="fas fa-check"> <u>What's React?</u></i>
@@ -191,17 +228,121 @@
 
                 <div class="first-ticket mr-1">
                     <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
                     <div class="d-flex justify-content-between">
                         <p class="text-colour">Slack Channel</p>
                         <i class="fas fa-check"> <u>What's React?</u></i>
                     </div>
                 </div>
-            </div>  
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
+            </div>
+            <div class="item d-flex justify-content-lg-between justify-content-md-between">
+                <p>12:00-01:00</p>
+                <p class="text-center lunch">Lunch</p>
+            </div>
+        </div>
 
+        <div class="second-grid ">
+            <div class="item1 d-flex justify-content-lg-between justify-content-md-between">
+                <p class="mr-1">11:00-12:00</p>
+                <div class="first-ticket mr-1">
+                    <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-colour">Slack Channel</p>
+                        <i class="fas fa-check"> <u>What's React?</u></i>
+                    </div>
+                </div>
+
+                <div class="first-ticket mr-1">
+                    <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-colour">Slack Channel</p>
+                        <i class="fas fa-check"> <u>What's React?</u></i>
+                    </div>
+                </div>
+            </div>
+            <div class="item2 d-flex justify-content-lg-between justify-content-md-between">
+                <p>12:00-01:00</p>
+                <p class="text-center lunch">Lunch</p>
+            </div>
+            <div class="item3 justify-content-lg-between justify-content-md-between">
+                <div class="first-ticket mr-1">
+                    <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-colour">Slack Channel</p>
+                        <i class="fas fa-check"> <u>What's React?</u></i>
+                    </div>
+                </div>
+            </div>
+            <div class="item4 d-flex justify-content-lg-between justify-content-md-between">
+                <p class="mr-1">11:00-12:00</p>
+                <div class="first-ticket mr-1">
+                    <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-colour">Slack Channel</p>
+                        <i class="fas fa-check"> <u>What's React?</u></i>
+                    </div>
+                </div>
+
+                <div class="first-ticket mr-1">
+                    <i class="fas fa-book-open font-weight-bold"> Opening Session</i>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-colour">Slack Channel</p>
+                        <i class="fas fa-check"> <u>What's React?</u></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="item5 d-flex justify-content-lg-between justify-content-md-between">
+                <p>12:00-01:00</p>
+                <p class="text-center lunch">Lunch</p>
+            </div>
+            <div class="item6 d-flex justify-content-lg-between justify-content-md-between">
+                <p>09:00-10:00</p>
+                <div class="d-flex justify-content-end hubert-div">
+                    <i class="fas fa-book-open mr-5"><span class="font-weight-bold"> Opening Session</span></i>
+                    <p class="mr5">Proff. Hubert</p>
+                    <p class="ml-5 text-colour">Slack Channel</p>
+                </div>
+            </div>
+            <div class="item7 d-flex justify-content-lg-between justify-content-md-between">
+                <p>09:00-10:00</p>
+                <div class="d-flex justify-content-end hubert-div">
+                    <i class="fas fa-book-open mr-5"><span class="font-weight-bold"> Opening Session</span></i>
+                    <p class="mr5">Proff. Hubert</p>
+                    <p class="ml-5 text-colour">Slack Channel</p>
+                </div>
+            </div>
+
+        </div>
+        <p class=" anchor conference"> <a href="#">Join React Conference 2020</a></p>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 last-about-div text-center p-5">
+                <p class="white">Arafat's Media, All Right Reserved</p>
+            </div>
         </div>
     </main>
 
