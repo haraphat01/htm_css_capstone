@@ -29,16 +29,6 @@ body {
   height: 3em;
 }
 
-.anchor1 a {
-  text-decoration: none !important;
-  color: white;
-}
-
-.anchor a {
-  text-decoration: none !important;
-  color: black;
-}
-
 .first,
 .second,
 .third,
@@ -52,18 +42,27 @@ a {
   color: #272a31 !important;
 }
 
+.anchor1 a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.anchor a {
+  text-decoration: none !important;
+  color: black;
+}
+
 .anchor a:hover {
   border: 2px solid #ec5242;
   box-shadow: 
   0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .first-body {
   background: rgb(80, 84, 85);
   background: 
-  linear-gradient(
-    90deg,
+  linear-gradient( 90deg,
     rgba(80, 84, 85, 1) 0%,
     rgba(172, 191, 167, 0.09) 45%,
     rgba(70, 70, 74, 1) 100%
@@ -324,7 +323,7 @@ hr {
 
 @media only screen and (max-width: 767px) {
   body {
-  overflow-x: hidden;
+    overflow-x: hidden;
   }
 
   .first-nav {
