@@ -3,6 +3,12 @@
 
 ![screenshot](./images/screenshot.png)
 
+This project includes the following:
+
+1:-A homepage that talks about the conference
+2:- About Section
+3:- Ticketing Section
+
 
 
 ## Built With
@@ -10,6 +16,8 @@
 - HTML,
 - CSS
 - Boostrap
+- FontAwesome
+
 
 ## Getting Started
 
