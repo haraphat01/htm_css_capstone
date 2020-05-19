@@ -120,11 +120,6 @@ a {
   line-height: 2;
 }
 
-.picture1 {
-  margin-top: -7em;
-  margin-left: -3em;
-}
-
 .image-1 {
   width: 300px;
   height: 150px;
@@ -310,8 +305,13 @@ hr {
 }
 
 @media only screen and (max-width: 767px) {
+  * {
+    margin: 0 !important;
+  }
+
   body {
-    overflow-x: hidden;
+    max-width: 100%;
+    font-size: 10px;
   }
 
   .first-nav {
@@ -330,12 +330,13 @@ hr {
     display: flex;
     flex-direction: row;
     margin-top: 1em;
-    padding-right: 1em;
+    padding: 1em;
   }
 
   .feature-p {
-    margin-top: 1em;
-    margin-left: 1em;
+    position: relative;
+    top: 1.5em;
+    left: 2em;
   }
 
   .blockquote1 {
@@ -344,15 +345,12 @@ hr {
     line-height: 2;
   }
 
-  .first-flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
+  hr {
+    display: none;
   }
 
   .small-device {
-    margin: 5px;
+    padding: 10px;
   }
 
   .child1 {
@@ -378,6 +376,65 @@ hr {
   .conference-section {
     margin-left: 2em;
   }
+
+  .first-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .first {
+    text-align: center;
+    background-color: #ec5242;
+    padding: 10px;
+    border-radius: 2px;
+  }
+
+  .second,
+  .third,
+  .fourth {
+    background-color: #d3d3d3;
+    padding: 10px;
+    border-radius: 2px;
+  }
+
+  .first-grid {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .item {
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+  }
+
+  .hubert-div {
+    background-color: #d3d3d3;
+    border-radius: 2px solid;
+    padding: 5px;
+  }
+
+  .second-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    border: 1px solid #d3d3d3;
+    padding: 5px;
+  }
+
+  .picture1 {
+    position: absolute;
+    top: 2em;
+    left: 12em;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -387,5 +444,10 @@ hr {
 
   .mobile-view {
     display: none;
+  }
+
+  .picture1 {
+    margin-top: -7em;
+    margin-left: -3em;
   }
 }
