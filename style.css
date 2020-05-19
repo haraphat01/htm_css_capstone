@@ -305,10 +305,6 @@ hr {
 }
 
 @media only screen and (max-width: 767px) {
-  * {
-    margin: 0 !important;
-  }
-
   body {
     max-width: 100%;
     font-size: 10px;
@@ -334,9 +330,8 @@ hr {
   }
 
   .feature-p {
-    position: relative;
-    top: 1.5em;
-    left: 2em;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
   }
 
   .blockquote1 {
@@ -357,6 +352,13 @@ hr {
     align-content: center;
   }
 
+  .logo {
+    position: relative;
+    left: -4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
   .logo1 {
     margin-top: 1.5em;
     border: 1px solid #d3d3d3;
@@ -365,7 +367,7 @@ hr {
   }
 
   .anchor2 {
-    margin-left: 1em;
+    margin-left: 0.1em;
     margin-bottom: 1em;
   }
 
@@ -404,6 +406,7 @@ hr {
   }
 
   .item {
+    margin-right: 0.5em;
     border: 1px solid #d3d3d3;
     padding: 10px;
   }
@@ -434,6 +437,10 @@ hr {
     position: absolute;
     top: 2em;
     left: 12em;
+  }
+
+  .d {
+    padding-left: 7px;
   }
 }
 
