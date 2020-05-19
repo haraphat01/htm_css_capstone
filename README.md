@@ -57,7 +57,9 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- Cindy Shin in Behance
+
+- Special Thanks to -[Behance](https://www.behance.net/adagio07) for making this project availabe.
+
 
 ## 📝 License
 
