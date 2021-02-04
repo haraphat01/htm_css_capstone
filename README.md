@@ -3,8 +3,7 @@
 
 ![screenshot](./images/screenshot.png)
 
-This project includes the following:
-
+This project includes the below-mentioned pages, it's a conference website for posting of conferences.
 1:-A homepage that talks about the conference
 2:- About Section
 3:- Ticketing Section
