@@ -1,4 +1,3 @@
-# capstone project
  
 
 ![screenshot](./images/screenshot.png)
